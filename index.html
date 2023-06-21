@@ -9,27 +9,34 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Work+Sans:wght@500&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./assets/style.css">
+    <script
+      src="https://cdn.jsdelivr.net/npm/dayjs@1.11.3/dayjs.min.js"
+      integrity="sha256-iu/zLUB+QgISXBLCW/mcDi/rnf4m4uEDO0wauy76x7U="
+      crossorigin="anonymous"
+    ></script>
 </head>
 <body>
     <div id="title-container">
         <h1>Weather Dashboard</h1> 
     </div> 
     <div id = "search-container">
+        <form id="submit-form">
         <h1>Search For a City</h1>
         <input id = "input-box" placeholder="Search For City"> 
-        
         <button id = "search-button">Search</button>
+        </form>
         <div id="loaded-container">
-            <button id = "loaded-cities">Atlanta</button>
-            <button id = "loaded-cities">Denver</button>
-            <button id = "loaded-cities">Seattle</button>
-            <button id = "loaded-cities">San Fransisco</button>
-            <button id = "loaded-cities">Orlando</button>
-            <button id = "loaded-cities">New York</button>
-            <button id = "loaded-cities">Austin</button>
+            <button class = "loaded-cities">Atlanta</button>
+            <button class = "loaded-cities">Denver</button>
+            <button class = "loaded-cities">Seattle</button>
+            <button class = "loaded-cities">San Fransisco</button>
+            <button class = "loaded-cities">Orlando</button>
+            <button class = "loaded-cities">New York</button>
+            <button class = "loaded-cities">Austin</button>
         </div>
     </div>
 
 <script src="./assets/script.js"></script>
+
 </body>
 </html>
